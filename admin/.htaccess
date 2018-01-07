@@ -1,0 +1,4 @@
+AuthName "Page d'administration protégée"
+AuthType Basic
+AuthUserFile "/var/www/mrelias.fr/mycms/admin/.htpasswd"
+Require valid-user

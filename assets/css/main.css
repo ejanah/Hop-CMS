@@ -1,0 +1,47 @@
+* {
+        font-family: "Open Sans", sans-serif;
+
+}
+
+.info-bar {
+    background-color: #f1c40f;
+    color: white;
+} 
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+
+.float-left {
+    float: left;
+    margin-top: 10px;
+}
+
+.float-right {
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.social-link {
+    color: white;
+    text-decoration: none;
+}
+
+.social-link:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.lost-password {
+    text-align: right;
+}
+@media (max-width: 768px) {
+.social-icon {
+    visibility: hidden;
+    }
+}
